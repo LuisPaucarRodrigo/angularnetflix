@@ -1,0 +1,23 @@
+<div class="custom-login-container">
+  <div class="custom-overlay">
+    <div class="custom-logo-container">
+      <img src="./assets/pngwing.com (2).png" alt="Logo de Netflix" class="custom-logo">
+    </div>
+    <div class="custom-login-form">
+      <h2>Inicia sesión</h2>
+      <form (submit)="onSubmit()">
+        <div class="custom-form-group">
+          <input type="email" id="email" placeholder="Email o numero de telefono" required>
+        </div>
+        <div class="custom-form-group">
+          <input type="password" id="password" placeholder="Contraseña" required>
+        </div>
+        <div class="custom-form-group">
+          <button type="submit">Iniciar sesión</button>
+        </div>
+      </form>
+      <p class="subscribe-text">¿Primera vez en Netflix? <a routerLink="/suscribete" >Suscríbete ahora.</a></p>
+      <p class="captcha-text">Esta página está protegida por Google reCAPTCHA para comprobar que no eres un robot.</p>
+    </div>
+  </div>
+</div>
